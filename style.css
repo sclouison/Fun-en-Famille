@@ -1,0 +1,232 @@
+body{
+	font-family: "Arial";
+	padding: 0;
+	margin: 0;
+}
+
+footer{
+	
+	background-color: #ebd8d0;
+	overflow: hidden;
+	
+}
+
+footer li{
+
+	float: left;
+	font-size: 1.0em;
+}	
+
+footer li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+
+span{
+	display: block;
+	float: right;
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+/* ***********************************NAV*************************** */
+nav{
+	overflow: hidden;
+	background-color: #ebd8d0;
+	position: fixed;
+	width: 100%;
+	opacity: 0,9;
+}
+header li{ 
+	float: right;
+	font-size: 1.2em;
+
+}
+header li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+#logo{
+	font-family: "Papyrus";
+	font-weight: bold;
+	float: left;
+}
+/* ***********************image****************** */
+#imageP{
+	padding-top: 60px;
+	background: url(media/fami.jpg) no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 900px;
+}
+h1{
+	font-family: "Papyrus", cursive;
+	text-align: center;
+	text-shadow: black 2px 5px;
+	color: #ebd8d0;
+	font-size: 6em;
+	margin-top: 40px
+	t
+
+}
+h3{
+	font-family: "Papyrus", cursive;
+	text-align: center;
+	text-shadow: black 2px 5px;
+	color: #ebd8d0;
+	font-size: 3em;
+}
+#trait1{
+	height: 2px;
+	width:60%;
+	margin: -3px auto;
+	background-color: #ebd8d0;
+}
+/* ************************presentation*************** */
+.presentation{	
+	
+}
+
+.pre,.pre2{
+
+	text-align: center;
+	background-color: #ebd8d0;
+	margin: 200px 200px;
+}
+.pre a{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+
+/* **********************contact********************** */
+label{
+	color: #ebd8d0;
+	text-shadow: black 2px 2px;
+}
+
+input{
+	color: blue;
+	background-color: #ebd8d0;
+}
+
+textarea{
+
+	color: blue;
+	background-color: #ebd8d0;
+}
+form{
+	text-align: center;
+}
+#carte{
+	text-align: center; 	
+}
+h4{
+	text-align: center;
+	color: blue;
+	text-
+}
+
+/* **********************Activitée********************* */
+#Activités{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 50px;
+}
+
+.imageActivités h4{
+	background-color: #ebd8d0;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(213 43 47);
+	font-family: "Papyrus", cursive;
+	text-decoration-line: underline overline;
+
+}	
+
+.imageActivités img{
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px 4px #ebd8d0
+}
+
+.imageActivités img:hover{
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.6s ease-in-out;
+}
+
+/* **********************FAQ************************* */
+#questions{
+	margin-left: auto;
+	  margin-right: auto;
+	width: 500px;
+	height: 400px;
+	text-align: center;
+}
+
+#questions ul li {
+	float: right;
+	margin: 10px 20px;
+	padding: 10px;
+	background-color: #ebd8d0;
+		text-align: center;
+}
+
+/* *********************sites************************ */
+
+	
+#sites{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 50px;
+}
+
+.imagesites img{
+	border-radius: 10px;
+	box-shadow: 3px 4px 5px 4px black;
+	
+}
+
+.imagesites img:hover{
+	opacity: 0.9;
+	transform: scale(1.05);
+	transition: 0.5s;
+
+}
+/* **********************Plan***********************  */
+#plan {
+	
+	margin: 2px 700px 2px 700px;
+	display: block;
+	height: 500px;	
+	text-align: center;
+	background-color: orangered;
+	font-family: "Papyrus", cursive;
+	font-weight: bold;
+
+
+
+
+	
+	
+}
+#plan a{
+	text-decoration-line: none;
+
+}
